@@ -49,8 +49,15 @@ test('logintest', async() => {
      await employeeDetails.enterLastName();
      await employeeDetails.enterEmployeeID();
      await employeeDetails.enterEmployeeEmail();
-     await employeeDetails.selectRole();
+     await employeeDetails.selectEmployeeRole();
+     await employeeDetails.enterEmployeePassword();
+     await employeeDetails.enterEmployeeDOB();
+     await employeeDetails.enterEmployeeJoinDate();
+     await employeeDetails.selectEmployeeQualification();
+     await employeeDetails.selectEmployeeGender();
+     await employeeDetails.enterEmpMobileNumber();
+     await employeeDetails.selectEmployeeBloodGroup();
+     await employeeDetails.enterEmployeeDesignation();
 
-
-
+    
 })

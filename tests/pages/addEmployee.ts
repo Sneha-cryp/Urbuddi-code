@@ -23,9 +23,42 @@ export default class AddEmployee {
         await this.locatorsPage.enterEmployeeEmail();
     }
 
-    async selectRole(){
-        await this.locatorsPage.selectRole('Employee')
+    async selectEmployeeRole(){
+        await this.locatorsPage.selectEmployeeRole('Employee')
         
     }
+    
+    async enterEmployeePassword(){
+        await this.locatorsPage.enterEmployeePassword();
 
+    }
+
+    async enterEmployeeDOB(){
+        await this.locatorsPage.enterEmployeeDOB();
+
+     
+    }  
+    
+    async enterEmployeeJoinDate(){
+        await this.locatorsPage.enterEmployeeJoinDate();
+    }
+
+    async selectEmployeeQualification(){
+        await this.locatorsPage.selectEmployeeQualification('Degree');
+    }
+
+    async selectEmployeeGender(){
+        await this.locatorsPage.selectEmpGender('Female')
+    }
+    async enterEmpMobileNumber(){
+        await this.locatorsPage.enterEmployeeMobileNumber();
+    }
+    async selectEmployeeBloodGroup(){
+        await this.locatorsPage.selectEmployeeBloodGroup('A+');
+    
+    }
+    async enterEmployeeDesignation(){
+        await this.locatorsPage.enterEmployeeDesignation();
+    }
 }
+
